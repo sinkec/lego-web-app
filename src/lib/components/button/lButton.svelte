@@ -13,4 +13,4 @@
 	let customClass = styleClasses[style];
 </script>
 
-<button {type} on:click={onClick} class={customClass}> <slot /></button>
+<button type={type} on:click={onClick} class={customClass}> <slot /></button>
