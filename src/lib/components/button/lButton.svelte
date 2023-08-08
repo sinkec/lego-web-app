@@ -14,3 +14,6 @@
 </script>
 
 <button type={type} on:click={onClick} class={customClass}> <slot /></button>
+
+
+<!-- submit gumb, primary gumb, normaln gumb (malo svetlejše kot ozadje), outline gumb (warning, success, error -- rdec - error, zelen, rumen) -->
