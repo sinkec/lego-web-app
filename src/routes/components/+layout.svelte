@@ -28,6 +28,6 @@
 		</nav>
 	</svelte:fragment>
 	<svelte:fragment slot="default">
-		<div class="p-5"><slot /></div>
+		<div class="px-10 py-5"><slot /></div>
 	</svelte:fragment>
 </AppShell>
