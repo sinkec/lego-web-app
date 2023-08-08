@@ -3,4 +3,4 @@
 
 </script>
 <h2 class="h2">Button</h2>
-<LButton onClick={() => (console.log('Button clicked!'))} type='button'>Hello</LButton>
+<LButton onClick={() => (console.log('Button clicked!'))} style='error_outline'>Hello</LButton>

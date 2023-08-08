@@ -1,12 +1,12 @@
 <script lang="ts">
 	export let type: 'button' | 'submit' | 'reset' = 'button';
 	export let onClick = () => {};
-	export let style: 'primary' | 'secondary' | 'testing' = 'primary';
+	export let style: 'primary' | 'secondary' | 'error_outline' = 'primary';
 
 	let styleClasses = {
 		primary: 'btn btn-lg variant-filled-primary',
 		secondary: 'btn btn-sm variant-filled-secondary',
-		testing: 'btn btn-lg variant-filled-error'
+		error_outline: 'btn btn-lg variant-ringed-error',
 	};
 
 	console.log(styleClasses[style]);
