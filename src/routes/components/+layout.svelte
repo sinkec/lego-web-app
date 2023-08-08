@@ -2,7 +2,7 @@
 	import { AppShell } from '@skeletonlabs/skeleton';
 </script>
 
-<AppShell slotSidebarLeft="bg-surface-500/5 w-64 p-5 shadow-md">
+<AppShell slotSidebarLeft="w-64 p-5 bg-surface-600/5 shadow-lg">
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Left side of NavBar -->
 		<nav class="list-nav">
