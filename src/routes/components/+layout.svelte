@@ -13,16 +13,16 @@
 
 			<ul>
 				<li>
-					<a href="/elements/lists"> Input </a>
+					<a href="/components/input"> Input </a>
 				</li>
 				<li>
-					<a href="/elements/lists"> Button </a>
+					<a href="/components/button"> Button </a>
 				</li>
 				<li>
-					<a href="/elements/lists"> Login </a>
+					<a href="/components/login"> Login </a>
 				</li>
 				<li>
-					<a href="/elements/lists"> O nas </a>
+					<a href="/components/library"> Library </a>
 				</li>
 			</ul>
 		</nav>
