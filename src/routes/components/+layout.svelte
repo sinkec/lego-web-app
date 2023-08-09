@@ -2,7 +2,7 @@
 	import { AppShell } from '@skeletonlabs/skeleton';
 </script>
 
-<AppShell slotSidebarLeft="w-64 p-5 bg-surface-600/5 shadow-lg">
+<AppShell slotSidebarLeft="p-5 card rounded-none shadow-lg">
 	<svelte:fragment slot="sidebarLeft">
 		<!-- Left side of NavBar -->
 		<nav class="list-nav">
@@ -28,6 +28,6 @@
 		</nav>
 	</svelte:fragment>
 	<svelte:fragment slot="default">
-		<div class="px-10 py-5"><slot /></div>
+		<div class="card mx-10 my-5 px-5 py-5"><slot /></div>
 	</svelte:fragment>
 </AppShell>
