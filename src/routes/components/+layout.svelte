@@ -28,6 +28,6 @@
 		</nav>
 	</svelte:fragment>
 	<svelte:fragment slot="default">
-		<div class="card mx-10 my-5 px-5 py-5"><slot /></div>
+		<div class="card flex mx-10 my-5 px-5 py-5"><slot /></div>
 	</svelte:fragment>
 </AppShell>
